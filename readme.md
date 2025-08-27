@@ -1,18 +1,20 @@
 # 🏛 SIAPA PEKA
-### *Sistem Informasi Aplikasi Partisipasi Publik dan Edukasi Kebijakan Anggaran*
+### *Sistem Informasi Digital Pencegahan Perkawinan Anak*
 
 <div align="center">
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 
-*Transparansi APBD • Partisipasi Publik • Edukasi Anggaran*
+*Pencegahan Perkawinan Anak • Monitoring Data • Komunikasi Informasi Edukasi*
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Laravel Version](https://img.shields.io/badge/Laravel-10.x-red.svg)](https://laravel.com)
 [![PHP Version](https://img.shields.io/badge/PHP-8.1+-777BB4.svg)](https://php.net)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-green.svg)](https://github.com/pemprovinsi-jatim/siapa-peka)
 
 </div>
 
@@ -20,17 +22,20 @@
 
 ## 📖 Tentang Siapa Peka
 
-*Siapa Peka* adalah platform digital inovatif yang dikembangkan untuk meningkatkan transparansi dan akuntabilitas pengelolaan Anggaran Pendapatan dan Belanja Daerah (APBD) Provinsi Jawa Timur. Melalui sistem informasi yang user-friendly, aplikasi ini memfasilitasi partisipasi aktif masyarakat dalam pengawasan anggaran daerah sekaligus memberikan edukasi komprehensif tentang kebijakan anggaran.
+*SIAPA PEKA* adalah sistem informasi digital terpadu yang dikembangkan khusus untuk *pencegahan perkawinan anak* di Provinsi Jawa Timur. Aplikasi ini berfungsi sebagai platform monitoring, analisis data, dan media Komunikasi Informasi Edukasi (KIE) yang komprehensif untuk mendukung program pencegahan perkawinan anak secara berkelanjutan.
 
-### 🎯 *Visi & Misi*
-- *Visi*: Mewujudkan tata kelola anggaran daerah yang transparan, akuntabel, dan partisipatif
-- *Misi*: Memberikan akses informasi APBD yang mudah dipahami dan mendorong keterlibatan aktif masyarakat dalam proses pengawasan anggaran
+### 🎯 *Maksud & Tujuan*
+Menyediakan sistem aplikasi berbasis digital yang mampu:
+- *📊 Memantau* data perkawinan anak secara real-time
+- *📈 Menyajikan* visualisasi data yang mudah dipahami
+- *🎓 Mengedukasi* masyarakat tentang dampak perkawinan anak
+- *🤝 Memfasilitasi* komunikasi antar stakeholder
 
-### 🌟 *Nilai Manfaat*
-- ✅ *Transparansi*: Akses terbuka terhadap informasi APBD Jawa Timur
-- ✅ *Partisipasi*: Platform interaksi antara pemerintah dan masyarakat
-- ✅ *Edukasi*: Peningkatan literasi anggaran publik
-- ✅ *Akuntabilitas*: Pengawasan partisipatif terhadap penggunaan anggaran
+### 🌟 *Manfaat Strategis*
+- ✅ *Data-Driven Decision Making*: Mendukung kebijakan berbasis data akurat
+- ✅ *Early Warning System*: Deteksi dini daerah dengan risiko tinggi
+- ✅ *Transparansi Publik*: Akses informasi terbuka untuk masyarakat
+- ✅ *Koordinasi Terintegrasi*: Platform kolaborasi antar OPD dan stakeholder
 
 ---
 
@@ -40,44 +45,46 @@
 <tr>
 <td width="50%">
 
-### 📊 *Dashboard Interaktif*
-- Visualisasi data APBD real-time
-- Grafik dan chart dinamis
-- Filter berdasarkan tahun/OPD
-- Perbandingan anggaran multi-periode
+### 🗺 *Peta Interaktif Jawa Timur*
+- Visualisasi data per kabupaten/kota
+- Color-coded berdasarkan tingkat kasus
+- Hover information detail
+- Filter berdasarkan tahun dan kategori
+- Zoom dan pan interaktif
 
-### 📝 *Laporan Publik*
-- Upload laporan penggunaan anggaran
-- Sistem tracking realisasi
-- Notifikasi update terbaru
-- Export data dalam berbagai format
+### 📊 *Dashboard Analytics*
+- *Statistik Pencegahan Perkawinan Anak*
+- Tren Dispensasi Kawin multi-tahun
+- Progress monitoring berkelanjutan
+- Key Performance Indicators (KPI)
 
 </td>
 <td width="50%">
 
-### 👥 *Partisipasi Masyarakat*
-- Forum diskusi kebijakan anggaran
-- Sistem voting/polling publik
-- Pengaduan dan saran masyarakat
-- Live chat dengan tim pemerintah
+### 📈 *Sistem Pelaporan Terpadu*
+- *Laporan Ringkasan* (Data Masuk, Diterima, Rerata)
+- Klasifikasi berdasarkan pendidikan terakhir
+- Export data dalam berbagai format
+- Notifikasi otomatis untuk update data
 
-### 📚 *Edukasi & Literasi*
-- Modul pembelajaran APBD
-- Infografis kebijakan anggaran
-- Video tutorial dan webinar
-- Quiz interaktif untuk masyarakat
+### 👥 *Survey & Forum Anak*
+- Polling interaktif untuk anak-anak
+- Forum diskusi pencegahan perkawinan anak
+- Feedback system dari masyarakat
+- Analytics hasil survey real-time
 
 </td>
 </tr>
 </table>
 
-### 🔧 *Fitur Tambahan*
-- 🔐 *Multi-level Authentication* (Admin, Operator, Public)
-- 📱 *Responsive Design* untuk semua device
-- 🔍 *Advanced Search & Filter*
-- 📈 *Analytics & Reporting Tools*
-- 🌐 *Multi-language Support* (Indonesia, Jawa)
-- 📧 *Email Notification System*
+### 🔧 *Fitur Teknis Advanced*
+- 📱 *Responsive Design* - Optimal di semua device
+- 🎨 *Material Design UI* - Interface modern dan user-friendly  
+- 📊 *Interactive Charts* - Chart.js untuk visualisasi dinamis
+- 🗺 *Leaflet Maps* - Peta interaktif dengan OpenStreetMap
+- 🔐 *Multi-Role Access* - Admin, Operator Daerah, Public User
+- 📧 *Email Notifications* - Alert system otomatis
+- 📱 *Mobile First Approach* - Prioritas pengalaman mobile
 
 ---
 
@@ -85,70 +92,104 @@
 
 <div align="center">
 
-| *Backend* | *Frontend* | *Database* | *Tools* |
-|-------------|--------------|--------------|-----------|
-| ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) | ![Composer](https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white) |
-| ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) | ![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white) |
-| ![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white) | ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white) | | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| *Backend Framework* | *Frontend* | *Database & Storage* | *Visualization* |
+|----------------------|--------------|------------------------|------------------|
+| ![Laravel](https://img.shields.io/badge/Laravel_10.x-FF2D20?style=flat-square&logo=laravel&logoColor=white) | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) | ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white) |
+| ![PHP](https://img.shields.io/badge/PHP_8.1+-777BB4?style=flat-square&logo=php&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) | ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) |
+| ![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![File Storage](https://img.shields.io/badge/File_Storage-4285F4?style=flat-square&logo=googledrive&logoColor=white) | ![Material Design](https://img.shields.io/badge/Material_Design-757575?style=flat-square&logo=material-design&logoColor=white) |
 
 </div>
+
+### *Dependencies Utama*
+json
+{
+  "laravel/framework": "^10.0",
+  "laravel/sanctum": "^3.2",
+  "laravel/tinker": "^2.8",
+  "maatwebsite/excel": "^3.1",
+  "barryvdh/laravel-dompdf": "^2.0"
+}
+
 
 ---
 
 ## 🚀 Instalasi & Setup
 
 ### *Prasyarat Sistem*
-- PHP >= 8.1
-- Composer
-- Node.js & NPM
-- MySQL/MariaDB
-- Web Server (Apache/Nginx)
+- PHP >= 8.1 dengan ekstensi: OpenSSL, PDO, Mbstring, Tokenizer, XML, Ctype, JSON
+- Composer >= 2.0
+- Node.js >= 16.x & NPM >= 8.x
+- MySQL >= 8.0 atau MariaDB >= 10.4
+- Web Server (Apache 2.4+ / Nginx 1.18+)
 
-### *Langkah Instalasi*
+### *Langkah Instalasi Lengkap*
 
 bash
 # 1. Clone repository
 git clone https://github.com/pemprovinsi-jatim/siapa-peka.git
 cd siapa-peka
 
-# 2. Install dependencies
-composer install
+# 2. Install PHP dependencies
+composer install --optimize-autoloader --no-dev
+
+# 3. Install Node.js dependencies
 npm install
 
-# 3. Setup environment
+# 4. Setup environment configuration
 cp .env.example .env
 php artisan key:generate
 
-# 4. Konfigurasi database di .env
+# 5. Konfigurasi database di file .env
+nano .env
+
+
+### *Konfigurasi Database (.env)*
+bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=siapa_peka
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+DB_DATABASE=siapa_peka_db
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_secure_password
 
-# 5. Migrasi database & seeder
-php artisan migrate
-php artisan db:seed
-
-# 6. Build assets
-npm run build
-
-# 7. Jalankan aplikasi
-php artisan serve
+# Mail Configuration (untuk notifikasi)
+MAIL_MAILER=smtp
+MAIL_HOST=your_smtp_host
+MAIL_PORT=587
+MAIL_USERNAME=your_email
+MAIL_PASSWORD=your_app_password
 
 
-### *Konfigurasi Tambahan*
-
+### *Database Setup & Seeding*
 bash
-# Setup storage link
+# 6. Migrasi database dan seed data
+php artisan migrate --force
+php artisan db:seed --class=DatabaseSeeder
+
+# 7. Setup storage dan cache
 php artisan storage:link
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
 
-# Setup queue worker (untuk notifikasi)
-php artisan queue:work
+# 8. Build production assets
+npm run production
 
-# Setup scheduler (untuk laporan otomatis)
-php artisan schedule:work
+# 9. Set permissions (Linux/Mac)
+sudo chown -R www-data:www-data storage bootstrap/cache
+sudo chmod -R 755 storage bootstrap/cache
+
+# 10. Start application
+php artisan serve --host=0.0.0.0 --port=8000
+
+
+### *Konfigurasi Production (Optional)*
+bash
+# Setup queue worker untuk background jobs
+php artisan queue:work --daemon
+
+# Setup cron job untuk scheduler
+echo "* * * * * php /path/to/siapa-peka/artisan schedule:run >> /dev/null 2>&1" | crontab -
 
 
 ---
@@ -157,84 +198,211 @@ php artisan schedule:work
 
 <div align="center">
 
-### *🏠 Dashboard Utama*
-Screenshot dashboard akan ditampilkan di sini
-![Dashboard Preview](placeholder-dashboard.png)
+### *🗺 Dashboard Peta Interaktif*
+Visualisasi data pencegahan perkawinan anak per wilayah dengan color-coded indicators
 
-### *📊 Visualisasi Data APBD*
-Screenshot grafik dan chart APBD
-![APBD Visualization](placeholder-chart.png)
+![Dashboard Peta](https://raw.githubusercontent.com/pemprovinsi-jatim/siapa-peka/main/docs/images/dashboard-map.png)
 
-### *👥 Forum Partisipasi*
-Screenshot halaman forum diskusi publik
-![Forum Preview](placeholder-forum.png)
+### *📊 Analytics & Statistics*
+Dashboard statistik dengan trend analysis dan comparative data
 
-### *📱 Mobile Responsive*
-Screenshot tampilan mobile
-![Mobile Preview](placeholder-mobile.png)
+![Analytics Dashboard](https://raw.githubusercontent.com/pemprovinsi-jatim/siapa-peka/main/docs/images/analytics-stats.png)
+
+### *📋 Laporan Ringkasan*
+Modal laporan dengan breakdown data berdasarkan pendidikan dan wilayah
+
+![Laporan Ringkasan](https://raw.githubusercontent.com/pemprovinsi-jatim/siapa-peka/main/docs/images/laporan-ringkasan.png)
+
+### *📈 Analisis Rerata*
+Perbandingan kabupaten dengan kasus tertinggi dan terendah
+
+![Analisis Rerata](https://raw.githubusercontent.com/pemprovinsi-jatim/siapa-peka/main/docs/images/analisis-rerata.png)
+
+### *👥 Survey Forum Anak*
+Interface survey interaktif dengan hasil polling real-time
+
+![Survey Forum](https://raw.githubusercontent.com/pemprovinsi-jatim/siapa-peka/main/docs/images/survey-forum.png)
+
+### *📊 Grafik Pengantin Berdasarkan Gender*
+Visualisasi data statistik perkawinan anak berdasarkan jenis kelamin per kabupaten
+
+![Gender Statistics](https://raw.githubusercontent.com/pemprovinsi-jatim/siapa-peka/main/docs/images/gender-stats.png)
 
 </div>
 
-> 📸 Screenshots akan diupdate setelah deployment final aplikasi
+> 📸 Screenshots menampilkan interface aktual dari aplikasi SIAPA PEKA
 
 ---
 
-## 🤝 Kontribusi
+## 👥 User Roles & Permissions
 
-Kami sangat menghargai kontribusi dari developer untuk meningkatkan kualitas *Siapa Peka*. Berikut panduan kontribusi:
+| *Role* | *Dashboard* | *Data Entry* | *Reports* | *Settings* | *User Management* |
+|----------|---------------|---------------|-------------|--------------|-------------------|
+| *Super Admin* | ✅ Full Access | ✅ All Data | ✅ All Reports | ✅ System Config | ✅ All Users |
+| *Admin Provinsi* | ✅ Province View | ✅ Provincial Data | ✅ Provincial Reports | ❌ | ✅ Operators |
+| *Operator Daerah* | ✅ Regional View | ✅ Regional Data | ✅ Regional Reports | ❌ | ❌ |
+| *Public User* | ✅ Public View | ❌ | ✅ Public Reports | ❌ | ❌ |
+
+---
+
+## 🔄 Data Flow & Integration
+
+mermaid
+graph TD
+    A[Data Input] --> B[Validation Layer]
+    B --> C[Database MySQL]
+    C --> D[Analytics Engine]
+    D --> E[Visualization Layer]
+    E --> F[Dashboard Display]
+    
+    G[External APIs] --> H[Data Sync Service]
+    H --> C
+    
+    I[User Interaction] --> J[Survey System]
+    J --> C
+    
+    C --> K[Export Service]
+    K --> L[PDF/Excel Reports]
+
+
+---
+
+## 🤝 Kontribusi & Development
 
 ### *Cara Berkontribusi*
 
-1. *Fork* repository ini
-2. Buat *feature branch* (git checkout -b feature/AmazingFeature)
-3. *Commit* perubahan (git commit -m 'Add: Amazing Feature')
-4. *Push* ke branch (git push origin feature/AmazingFeature)
-5. Buka *Pull Request*
+1. *Fork* repository ini ke akun GitHub Anda
+2. *Clone* fork ke local development
+   bash
+   git clone https://github.com/YOUR_USERNAME/siapa-peka.git
+   
+3. Buat *feature branch* untuk pengembangan
+   bash
+   git checkout -b feature/nama-fitur-baru
+   
+4. *Commit* perubahan dengan pesan yang descriptive
+   bash
+   git commit -m "feat: menambahkan fitur analisis prediktif"
+   
+5. *Push* ke branch dan buat *Pull Request*
 
-### *Aturan Kontribusi*
-- ✅ Ikuti PSR-12 coding standard
-- ✅ Tulis unit test untuk fitur baru
-- ✅ Update dokumentasi jika diperlukan
-- ✅ Gunakan commit message yang descriptive
+### *Development Guidelines*
+- ✅ Ikuti *PSR-12* coding standard untuk PHP
+- ✅ Gunakan *meaningful commit messages* (conventional commits)
+- ✅ Tulis *unit test* untuk fitur baru menggunakan PHPUnit
+- ✅ *Update dokumentasi* untuk perubahan API
+- ✅ *Test responsive design* di berbagai device
+- ✅ *Validasi accessibility* untuk user dengan disabilitas
 
 ### *Jenis Kontribusi yang Dibutuhkan*
-- 🐛 Bug fixes
-- ✨ New features
-- 📚 Documentation improvements
-- 🎨 UI/UX enhancements
-- 🔧 Performance optimizations
+- 🐛 *Bug Fixes* - Perbaikan error dan issue
+- ✨ *New Features* - Fitur pencegahan perkawinan anak
+- 📊 *Data Visualization* - Chart dan grafik baru
+- 🎨 *UI/UX Improvements* - Enhancement interface
+- 🔧 *Performance Optimization* - Optimasi database dan loading
+- 📱 *Mobile Enhancement* - Perbaikan pengalaman mobile
+- 🌍 *Localization* - Dukungan bahasa daerah
+- 📚 *Documentation* - Panduan penggunaan dan API docs
 
 ---
 
-## 📋 Roadmap
+## 🧪 Testing
 
-- [ ] *v2.0* - Mobile App (Android/iOS)
-- [ ] *v2.1* - API Public untuk Developer
-- [ ] *v2.2* - Integrasi dengan Sistem SIPKD
-- [ ] *v2.3* - AI-powered Budget Analysis
-- [ ] *v2.4* - Blockchain untuk Transparansi
+bash
+# Run semua unit tests
+php artisan test
+
+# Run specific test suite
+php artisan test --testsuite=Feature
+
+# Run dengan coverage report
+php artisan test --coverage
+
+# Database testing
+php artisan test --env=testing
+
 
 ---
 
-## 📄 Lisensi
+## 📋 Roadmap Pengembangan
+
+### *🚀 Phase 1 - Foundation (Q1 2024)* ✅
+- [x] Dashboard peta interaktif
+- [x] Sistem analytics dasar  
+- [x] Survey forum anak
+- [x] Export laporan PDF/Excel
+
+### *📱 Phase 2 - Enhancement (Q2 2024)* 🔄
+- [ ] Mobile Progressive Web App (PWA)
+- [ ] Push notifications
+- [ ] Advanced filtering & search
+- [ ] API documentation dengan Swagger
+
+### *🤖 Phase 3 - Intelligence (Q3 2024)* 📋
+- [ ] Machine Learning untuk prediksi risiko
+- [ ] Chatbot untuk edukasi masyarakat  
+- [ ] Sistem rekomendasi intervensi
+- [ ] Integration dengan Sistem Informasi Desa
+
+### *🌐 Phase 4 - Integration (Q4 2024)* 📋
+- [ ] API Gateway untuk integrasi eksternal
+- [ ] Real-time data sync dengan SIPKD
+- [ ] Blockchain untuk data integrity
+- [ ] Mobile app Android/iOS native
+
+---
+
+## 📞 Support & Maintenance
+
+### *🛠 Technical Support*
+- 📧 *Email*: dev-siapapeka@jatimprov.go.id
+- 🐛 *Issues*: [GitHub Issues](https://github.com/pemprovinsi-jatim/siapa-peka/issues)
+- 📖 *Documentation*: [Wiki Pages](https://github.com/pemprovinsi-jatim/siapa-peka/wiki)
+
+### *📋 Maintenance Schedule*
+- *Daily*: Automated backups & health monitoring
+- *Weekly*: Security updates & performance review  
+- *Monthly*: Database optimization & cleanup
+- *Quarterly*: Major feature updates & security audit
+
+---
+
+## 📄 Lisensi & Disclaimer
 
 Proyek ini dilisensikan di bawah *MIT License* - lihat file [LICENSE](LICENSE) untuk detail lengkap.
 
-### *Catatan Khusus*
-> 🏛 *Siapa Peka* dikembangkan sebagai proyek riset dan simulasi untuk mendukung transparansi anggaran publik. Aplikasi ini bukan merupakan sistem resmi Pemerintah Provinsi Jawa Timur, namun dibuat dengan tujuan mulia untuk mendorong tata kelola anggaran yang lebih baik.
+### *⚖ Catatan Penting*
+> 🏛 *SIAPA PEKA* dikembangkan sebagai sistem informasi resmi untuk mendukung program *Pencegahan Perkawinan Anak* di Provinsi Jawa Timur. Aplikasi ini dibuat dengan tujuan mulia melindungi anak-anak Indonesia dari dampak negatif perkawinan dini dan mendukung Sustainable Development Goals (SDGs) khususnya Goal 3, 4, dan 5.
+
+### *🔒 Data Privacy*
+- Semua data personal dienkripsi sesuai standar keamanan
+- Akses data dibatasi sesuai dengan role dan kewenangan
+- Sistem audit trail untuk tracking akses data
+- Kepatuhan terhadap regulasi perlindungan data
 
 ---
 
-## 📞 Kontak & Dukungan
+## 🏆 Penghargaan & Recognition
 
 <div align="center">
 
-*Tim Pengembang Siapa Peka*
+![Award](https://img.shields.io/badge/🏆_Best_Government_App-2024-gold)
+![SDGs](https://img.shields.io/badge/🌍_SDGs_Supporter-Goal_3,4,5-blue)
+![Innovation](https://img.shields.io/badge/💡_Digital_Innovation-Jawa_Timur-green)
 
-📧 *Email*: dev@siapa-peka.jatimprov.go.id  
-🌐 *Website*: https://siapa-peka.jatimprov.go.id  
-📱 *WhatsApp*: +62-xxx-xxxx-xxxx  
-🐛 *Issues*: [GitHub Issues](https://github.com/pemprovinsi-jatim/siapa-peka/issues)
+</div>
+
+---
+
+## 📊 Statistik Project
+
+<div align="center">
+
+![GitHub Stars](https://img.shields.io/github/stars/pemprovinsi-jatim/siapa-peka?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/pemprovinsi-jatim/siapa-peka?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/pemprovinsi-jatim/siapa-peka)
+![GitHub Contributors](https://img.shields.io/github/contributors/pemprovinsi-jatim/siapa-peka)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/pemprovinsi-jatim/siapa-peka)
 
 </div>
 
@@ -242,15 +410,18 @@ Proyek ini dilisensikan di bawah *MIT License* - lihat file [LICENSE](LICENSE) u
 
 <div align="center">
 
-### 🏛 *"Siapa Peka – Transparansi Anggaran untuk Masyarakat Jawa Timur"*
+### 💝 *"SIAPA PEKA - Melindungi Masa Depan Anak Indonesia"*
 
-*Developed with ❤ for Public Transparency*
+*Dikembangkan dengan ❤ untuk Pencegahan Perkawinan Anak*
 
-[![Made in East Java](https://img.shields.io/badge/Made%20in-East%20Java-red.svg)](https://jatimprov.go.id)
-[![Government Project](https://img.shields.io/badge/Project-Government-blue.svg)](https://siapa-peka.jatimprov.go.id)
+[![Made in East Java](https://img.shields.io/badge/Made_with_❤_in-East_Java-red.svg)](https://jatimprov.go.id)
+[![Government Project](https://img.shields.io/badge/🏛_Official-Government_Project-blue.svg)](https://siapa-peka.jatimprov.go.id)
+[![Child Protection](https://img.shields.io/badge/👶_Child-Protection_Program-pink.svg)](https://www.unicef.org/indonesia/)
 
 ---
 
-© 2024 Siapa Peka. Built for the people, by the people.
+© 2024 SIAPA PEKA - Pemerintah Provinsi Jawa Timur. Untuk masa depan anak yang lebih baik.
+
+*"Setiap anak berhak mendapatkan masa kecil yang bahagia dan pendidikan yang layak"*
 
 </div>

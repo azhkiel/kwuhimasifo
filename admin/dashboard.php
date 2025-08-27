@@ -12,6 +12,7 @@ redirectIfNotLoggedIn();
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </head>
+<?php include 'components/sidebar.php'; ?>
 <body class="bg-gray-100">
     <header class="bg-white shadow-md">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">

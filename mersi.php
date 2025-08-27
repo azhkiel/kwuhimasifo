@@ -2,16 +2,13 @@
 session_start();
 require_once 'includes/db.php';
 
-// Ambil semua produk merchandise
 $stmt = $pdo->query("SELECT * FROM mersi_products WHERE stock > 0 ORDER BY name");
 $products = $stmt->fetchAll();
 
-// Tambah ke keranjang
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
     $product_id = $_POST['product_id'];
     $quantity = 1; // Default quantity
     
-    // Cari produk
     $product = null;
     foreach ($products as $p) {
         if ($p['id'] == $product_id) {
@@ -21,12 +18,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
     }
     
     if ($product) {
-        // Inisialisasi keranjang jika belum ada
         if (!isset($_SESSION['cart'])) {
             $_SESSION['cart'] = [];
         }
-        
-        // Cek jika produk sudah ada di keranjang
         $found = false;
         foreach ($_SESSION['cart'] as &$item) {
             if ($item['id'] == $product_id) {
@@ -35,8 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
                 break;
             }
         }
-        
-        // Jika belum ada, tambahkan produk baru
         if (!$found) {
             $_SESSION['cart'][] = [
                 'id' => $product['id'],
@@ -46,8 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
                 'image' => $product['image']
             ];
         }
-        
-        // Redirect untuk menghindari resubmission
         header('Location: mersi.php');
         exit;
     }
@@ -58,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merchandise - Produk Eksklusif</title>
+    <title>Mersi - Merchandise Sistem Informasi</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
